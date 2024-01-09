@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: '#FFF';
+  margin: 0;
+  padding: 0;
+}
+.borderGrd {
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to bottom, #f5efcf, #5d4b41) border-box;
+  border: 2px solid transparent;
+  border-bottom: none;
+
+  transition: border 1s;
+}
+
+.clip {
+  clip-path: ellipse(60% 40% at 50% 50%);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none !important;
+}
+
+

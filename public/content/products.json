@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Stockings",
+        "image": "stockings/main.png",
+        "slug": "stockings",
+        "description": "Christmas Stockings",
+        "content": [
+            {
+                "title": "Heading",
+                "description": "Text",
+                "image": "stockings/stocking1.png"
+            },
+            {
+                "title": "Heading 2",
+                "description": "Text",
+                "image": "stockings/stocking2.png"
+            },
+            {
+                "title": "Heading 3",
+                "description": "Text",
+                "image": "stockings/stocking2.png"
+            }
+        ]
+    },
+    {
+        "name": "Pillows",
+        "image": "pillows/main.png",
+        "slug": "pillows",
+        "description": "Delve into the world of comfort and style with our exquisite pillow collection. Each pillow is a testament to our dedication to quality, design, and craftsmanship. From the cozy corners of living rooms to the luxurious ambiances of bedrooms, our pillows add a touch of elegance and comfort. With a variety of textures, designs, and techniques, each piece is a unique blend of tradition and trend, ensuring that there's a perfect match for every decor style.",
+        "content": [
+            {
+                "title": "Printed Pillows",
+                "description": "Our Printed Pillows, available in both screen and digital prints, are a canvas of creativity. Screen-printed pillows boast traditional charm and artisanal flair, while digital prints offer crisp, contemporary designs. Each pillow showcases vibrant colors and intricate patterns, making them a stunning addition to any room. They are not just pillows; they are pieces of art that can transform any space into a vivid tableau of style and elegance.",
+                "image": "pillows/printed.jpg"
+            },
+            {
+                "title": "Knitted Pillows",
+                "description": "Our Knitted Pillows are the epitome of cozy comfort. Crafted with care, each stitch tells a story of meticulous craftsmanship. These pillows offer a homely charm, perfect for creating a warm, inviting space. The textures range from simple, elegant patterns to more intricate, bold designs, making them versatile for various decor styles. Whether curled up with a book or adding an accent to your sofa, these pillows bring a unique blend of comfort and artisanal beauty.",
+                "image": "pillows/knitted.jpg"
+            },
+            {
+                "title": "Embroidered Pillows",
+                "description": "Embroidered Pillows, both hand and machine-crafted, are jewels in our collection. Hand-embroidered pillows reflect the timeless artistry of India’s skilled artisans, while machine-embroidered ones bring precision and consistency. Each design is a blend of texture, color, and pattern, creating a sophisticated and luxurious feel. These pillows are perfect for adding a touch of elegance and intricacy to your living space.",
+                "image": "pillows/embroidered.jpg"
+            },
+            {
+                "title": "Embellished Pillows",
+                "description": "Our Embellished Pillows are where luxury meets creativity. Adorned with beads, sequins, and other decorative elements, each pillow is a masterpiece of detail and design. These pillows add a dazzling touch to any room, catching the light and the eye with every intricate detail. Ideal for those who love a bit of sparkle and glamour in their decor, these pillows are a statement in sophistication.",
+                "image": "pillows/embellished.jpg"
+            },
+            {
+                "title": "Crochet Pillows",
+                "description": "The Crochet Pillows in our collection are a nod to the classic craft of crochet. With their unique textures and patterns, they bring a vintage charm and a handmade feel to your decor. Each pillow is a soft, tactile delight, perfect for adding a cozy, artisanal touch to any room. Whether styled in a modern setting or a traditional space, these pillows bridge the gap between contemporary chic and timeless craftsmanship.",
+                "image": "pillows/crochet.jpg"
+            },
+            {
+                "title": "Felt Pillows",
+                "description": "Soft, durable, and delightfully tactile, our Felt Pillows are a celebration of simplicity and modern design. Made from high-quality felt, these pillows offer a unique textural contrast and a minimalist aesthetic. Perfect for those who prefer a subtler, yet impactful decor statement, our felt pillows bring an understated elegance to any space.",
+                "image": "pillows/felt.jpg"
+            },
+            {
+                "title": "Woven Pillows",
+                "description": "The Woven Pillows in our assortment embody the essence of traditional weaving techniques. Each pillow is a tapestry of colors and patterns, showcasing the skill of our weavers. These pillows are perfect for adding a rustic, earthy feel to your decor, bringing a sense of warmth and homeliness. From intricate geometrics to simple stripes, our woven pillows are versatile and timeless.",
+                "image": "pillows/woven.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Ornaments",
+        "image": "ornaments/main.png",
+        "slug": "ornaments",
+        "description": "Our ornaments are a celebration of the festive spirit. Each ornament is a unique blend of traditional craftsmanship and contemporary design, making them a perfect addition to any Christmas tree. From the classic charm of handcrafted glass to the rustic appeal of wood, our ornaments are a testament to our dedication to quality and design. Whether you prefer a traditional Christmas or a more modern celebration, our ornaments are sure to add a touch of elegance and style to your festivities.",
+        "content": [
+            {
+                "title": "Wooden Ornaments",
+                "description": "Our Wood Ornaments bring the timeless beauty of nature into your home. Carved, polished, and designed with meticulous attention to detail, these pieces exude a natural charm and warmth. Perfect for adding a rustic or earthy element to your decor, they stand as a testament to the classic art of woodcraft. Each ornament, with its unique grains and textures, tells a story of tradition and natural beauty.",
+                "image": "ornaments/wooden.jpg"
+            },
+            {
+                "title": "Hand-Blown Mercury Glass Ornaments",
+                "description": "The elegance of our Hand-Blown Mercury Glass Ornaments is truly unparalleled. Created with the age-old technique of glass blowing, each piece is a shimmering work of art. The reflective surface, combined with the intricate shapes and designs, captures light and attention alike. These ornaments are perfect for those who seek to add a touch of refined brilliance to their decor.",
+                "image": "ornaments/glass.jpg"
+            },
+            {
+                "title": "Felt Ornaments",
+                "description": "Soft, playful, and full of charm, our Felt Ornaments are a delightful addition to any collection. Crafted from high-quality felt, these ornaments are both durable and aesthetically pleasing. Their whimsical shapes and vibrant colors make them ideal for a variety of decorative themes, offering a cheerful and inviting presence.",
+                "image": "ornaments/felt.jpg"
+            },
+            {
+                "title": "Handmade Ornaments",
+                "description": "Each Handmade Ornament in our collection is a unique masterpiece. With every curve, color, and design crafted by skilled artisans, these ornaments embody the essence of individual artistry. Ideal for those who appreciate the human touch in their decor, these pieces bring an authentic and personal feel to any space.",
+                "image": "ornaments/handmade.jpg"
+            },
+            {
+                "title": "Embellished Ornaments",
+                "description": "Our Hand Embellished Ornaments are where intricate details meet exquisite craftsmanship. Adorned with beads, sequins, and other decorative elements, these ornaments are all about luxury and elegance. They are perfect for adding a sparkling and sophisticated touch to your decor, making every moment feel special and festive.",
+                "image": "ornaments/embellished.jpg"
+
+            }
+        ]
+    },
+    {
+        "name": "Tassels",
+        "image": "tassels/main.png",
+        "slug": "tassels",
+        "description": ""
+    },
+    {
+        "name": "Bar Ware",
+        "image": "bar-ware/main.png",
+        "slug": "bar-ware"
+    },
+    {
+        "name": "Wooden Bowls",
+        "image": "wooden-bowls/main.png",
+        "slug": "wooden-bowls"
+    },
+    {
+        "name": "Bells",
+        "image": "bells/main.png",
+        "slug": "bells",
+        "description": "Step into the melodious world of our Bells Collection, where each bell is not just a decor item but a symbol of tradition and craftsmanship. From the resonant tones of cast metal to the organic charm of wooden bells, our collection offers a diverse range of styles. These bells, whether rustic handmade or delicately handpainted, are designed to add a unique auditory and visual appeal to any space, creating an ambiance that resonates with culture and artistry.",
+        "content": [
+            {
+                "title": "Cast Metal Bells",
+                "description": "Our Cast Metal Bells are a tribute to the classic art of metalworking. Crafted with precision, each bell produces a clear, resonant sound that captivates the senses. The robust material ensures durability, while the intricate designs reflect a blend of strength and beauty. These bells are perfect for those who appreciate the timeless appeal of metal art and the distinct, soothing sound that only a metal bell can provide.",
+                "image": "bells/cast.jpg"
+            },
+            {
+                "title": "Wooden Bells",
+                "description": "The organic beauty of our Wooden Bells brings a piece of nature's serenity into your home. Each bell, crafted from carefully selected wood, showcases the natural grain and texture, making it a unique piece of art. These bells are ideal for adding a touch of rustic charm to your decor, offering a warm, subtle tone that complements any setting.",
+                "image": "bells/wooden.jpg"
+            },
+            {
+                "title": "Handmade Rustic Bells",
+                "description": "Our Handmade Rustic Bells are the embodiment of artisanal charm. Created with traditional techniques, these bells have an earthy, unrefined aesthetic that stands out in any decor. Their unique rustic appeal is perfect for those who love a more natural, handmade look, bringing a sense of warmth and authenticity to your space.",
+                "image": "bells/rustic.jpg"
+            },
+            {
+                "title": "Handpainted Bells",
+                "description": "The artistry of our Handpainted Bells is truly a visual delight. Each bell becomes a canvas for our skilled artists, adorned with beautiful, intricate patterns and colors. These bells are more than just musical decor; they are miniature masterpieces, perfect for adding a splash of color and artistic flair to any room. Ideal for those who appreciate the beauty of handcrafted, personalized art.",
+                "image": "bells/handpainted.jpg"
+            }
+        ]        
+    },
+    {
+        "name": "Sofa Throws",
+        "image": "sofa-throws/main.png",
+        "slug": "sofa-throws",
+        "description": "Our collection of Throws is designed to offer both elegance and comfort, perfect for enhancing the coziness and style of any living space. Each throw in our collection, whether knitted or woven, is crafted with the utmost care, reflecting our commitment to quality and design. These versatile pieces serve as a functional addition to your home, providing warmth and comfort while also acting as a stylish accessory that can instantly uplift the ambiance of a room.",
+        "content": [
+            {
+                "title": "Knitted Throws",
+                "description": "Our Knitted Throws are a perfect blend of cozy comfort and stylish design. Meticulously crafted, each throw is a soft embrace of warmth, ideal for snuggling up on the sofa or adding an extra layer of comfort to your bedding. The intricate knitting patterns range from classic to contemporary, offering a variety of textures and styles to suit any decor. These throws are not just functional; they're a stylish accent piece that adds a homely charm to any room.",
+                "image": "sofa-throws/knitted.jpg"
+            },
+            {
+                "title": "Woven Throws",
+                "description": "Experience the timeless elegance of our Woven Throws, made using traditional handloom techniques. These throws are a testament to the skill and artistry of our weavers, each piece radiating with rich textures and patterns. The handloom process ensures that every throw is unique, with subtle variations that add character and depth. Perfect for draping over a sofa or chair, our woven throws bring a touch of artisanal sophistication to your living space.",
+                "image": "sofa-throws/woven.jpg"
+            }
+        ]
+        
+    },
+    {
+        "name": "Napkin Rings",
+        "image": "napkin-rings/main.png",
+        "slug": "napkin-rings"
+    },
+    {
+        "name": "Coasters",
+        "image": "coasters/main.png",
+        "slug": "coasters"
+    }
+]
