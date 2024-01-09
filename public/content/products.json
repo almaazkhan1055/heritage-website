@@ -4,23 +4,7 @@
         "image": "stockings/main.png",
         "slug": "stockings",
         "description": "Christmas Stockings",
-        "content": [
-            {
-                "title": "Heading",
-                "description": "Text",
-                "image": "stockings/stocking1.png"
-            },
-            {
-                "title": "Heading 2",
-                "description": "Text",
-                "image": "stockings/stocking2.png"
-            },
-            {
-                "title": "Heading 3",
-                "description": "Text",
-                "image": "stockings/stocking2.png"
-            }
-        ]
+        "content": []
     },
     {
         "name": "Pillows",
@@ -103,17 +87,19 @@
         "name": "Tassels",
         "image": "tassels/main.png",
         "slug": "tassels",
-        "description": ""
-    },
+        "description": "",
+        "content": []    },
     {
         "name": "Bar Ware",
         "image": "bar-ware/main.png",
-        "slug": "bar-ware"
+        "slug": "bar-ware","description": "",
+        "content": []
     },
     {
         "name": "Wooden Bowls",
         "image": "wooden-bowls/main.png",
-        "slug": "wooden-bowls"
+        "slug": "wooden-bowls",        "description": "",
+        "content": []
     },
     {
         "name": "Bells",
@@ -165,11 +151,15 @@
     {
         "name": "Napkin Rings",
         "image": "napkin-rings/main.png",
-        "slug": "napkin-rings"
+        "slug": "napkin-rings",
+        "description": "",
+        "content": []
     },
     {
         "name": "Coasters",
         "image": "coasters/main.png",
-        "slug": "coasters"
+        "slug": "coasters",
+        "description": "",
+        "content": []
     }
 ]
