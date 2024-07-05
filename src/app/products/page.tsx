@@ -1,11 +1,11 @@
-import CollectionComponent from '@/components/CollectionComponent'
-import NudgeBanner from '@/components/NudgeBanner'
-import PageTitle from '@/components/PageTitle'
+import CollectionComponent from '@/components/ui/CollectionComponent'
+import NudgeBanner from '@/components/ui/NudgeBanner'
+import PageTitle from '@/components/ui/PageTitle'
 import Image from 'next/image'
 import React from 'react'
 
 import fs from 'fs'
-import ProductCard from '@/components/homepage/products/ProductCard'
+import ProductCard from '@/app/(HomePage)/sections/products/ProductCard'
 
 const Products = () => {
   const products = JSON.parse(

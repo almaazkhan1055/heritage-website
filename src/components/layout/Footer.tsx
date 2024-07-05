@@ -35,10 +35,13 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full mx-auto h-[30%] text-[#F5EFCF] bg-[#2A221D]">
-        <div className="max-w-screen-xl  text-sm flex mx-auto h-full items-center justify-center lg:justify-start">
+      <div className="w-full mx-auto h-[30%] text-[#F5EFCF] bg-dark">
+        <div className="max-w-screen-xl text-sm flex flex-col md:flex-row mx-auto h-full items-center justify-center lg:justify-between">
           <p>© {year} Heritage India Exports. All rights reserved.</p>
+          <p>CIN: U51909DL2003PTC133215</p>
+
         </div>
+
       </div>
     </div>
   )

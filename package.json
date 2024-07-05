@@ -10,7 +10,10 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
     "next": "13.5.6",
+    "next-export-optimize-images": "^3.2.0",
     "react": "^18",
     "react-dom": "^18",
     "react-flagpack": "^1.2.0",

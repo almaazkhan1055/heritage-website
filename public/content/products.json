@@ -1,6 +1,6 @@
 [
     {
-        "name": "Stockings",
+        "name": "Stockings & Tree Skirts",
         "image": "stockings/main.png",
         "slug": "stockings",
         "description": "Christmas Stockings",
@@ -96,9 +96,10 @@
         "content": []
     },
     {
-        "name": "Wooden Bowls",
-        "image": "wooden-bowls/main.png",
-        "slug": "wooden-bowls",        "description": "",
+        "name": "Kitchen Ware",
+        "image": "kitchen-ware/main.png",
+        "slug": "kitchen-ware",
+        "description": "",
         "content": []
     },
     {
@@ -147,19 +148,5 @@
             }
         ]
         
-    },
-    {
-        "name": "Napkin Rings",
-        "image": "napkin-rings/main.png",
-        "slug": "napkin-rings",
-        "description": "",
-        "content": []
-    },
-    {
-        "name": "Coasters",
-        "image": "coasters/main.png",
-        "slug": "coasters",
-        "description": "",
-        "content": []
     }
 ]

@@ -1,7 +1,7 @@
 import React from 'react'
-import PageTitle from '../PageTitle'
+import PageTitle from '../ui/PageTitle'
 import CategoryCard from './CategoryCard'
-import NudgeBanner from '../NudgeBanner'
+import NudgeBanner from '../ui/NudgeBanner'
 
 const ProductCategory = () => {
   return (

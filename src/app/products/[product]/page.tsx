@@ -1,5 +1,5 @@
 import { Button } from '@/components'
-import CollectionComponent from '@/components/CollectionComponent'
+import CollectionComponent from '@/components/ui/CollectionComponent'
 import ProductDetail from '@/components/product-detail/Index'
 import React from 'react'
 import fs from 'fs'

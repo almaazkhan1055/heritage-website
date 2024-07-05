@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import NudgeBanner from '@/components/NudgeBanner'
-import PageTitle from '@/components/PageTitle'
+import NudgeBanner from '@/components/ui/NudgeBanner'
+import PageTitle from '@/components/ui/PageTitle'
 
 const Contact = () => {
   return (
@@ -9,114 +9,7 @@ const Contact = () => {
       <PageTitle title="CONTACT US" img="/assets/contact/bg.jpg" />
 
       <div className="max-w-screen-xl mx-auto flex lg:flex-row flex-col items-center justify-center">
-        <div className="lg:w-[50%] flex items-center justify-center  w-full h-full">
-          <section className="text-[#5D4B41] body-font   relative">
-            <div className="container px-5 py-24  flex items-center justify-center flex-col ">
-              <div className="flex flex-col lg:text-left text-center  w-full mb-6">
-                <h1 className="sm:text-5xl text-3xl font-medium title-font mb-2 font-canela text-primary">
-                  Contact Form
-                </h1>
-              </div>
-
-              <div className="lg:w-full md:w-2/3  ">
-                <div className="flex flex-wrap -m-2">
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="email"
-                        className="leading-7 font-semibold text-sm text-[#5D4B41]"
-                      >
-                        Choose Topic
-                      </label>
-                      <select
-                        id="cars"
-                        className="w-full bg-white  rounded border border-[#B49F93] focus:border-primary focus:bg-white focus:ring-2 focus:ring-primary-200 text-base outline-none text-primary py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                        name="cars"
-                      >
-                        <option value="volvo">Product Inquiry</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="p-2 w-1/2">
-                    <div className="relative">
-                      <label
-                        htmlFor="name"
-                        className="leading-7 font-semibold text-sm text-[#5D4B41]"
-                      >
-                        First Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Name"
-                        className="w-full  bg-opacity-50 rounded border border-[#B49F93] focus:border-primary focus:bg-white focus:ring-2 focus:ring-primary-200 text-base outline-none text-primary py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="p-2 w-1/2">
-                    <div className="relative">
-                      <label
-                        htmlFor="email"
-                        className="leading-7 font-semibold text-sm text-[#5D4B41]"
-                      >
-                        Last Name
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Surname"
-                        className="w-full  bg-opacity-50 rounded border border-[#B49F93] focus:border-primary focus:bg-white focus:ring-2 focus:ring-primary-200 text-base outline-none text-primary py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="email"
-                        className="leading-7 font-semibold text-sm text-[#5D4B41]"
-                      >
-                        Email Address
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="yourmail@xyz.com"
-                        className="w-full  bg-opacity-50 rounded border border-[#B49F93] focus:border-primary focus:bg-white focus:ring-2 focus:ring-primary-200 text-base outline-none text-primary py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        htmlFor="message"
-                        className="leading-7 font-semibold text-sm text-[#5D4B41]"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        placeholder="Enter your query in detail"
-                        className="w-full  bg-opacity-50 rounded border border-[#B49F93] focus:border-primary focus:bg-white focus:ring-2 focus:ring-primary-200 h-32 text-base outline-none text-primary py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div className="p-2 font-canela w-full">
-                    <button className="flex  w-full text-white bg-[#937767] border-0 py-2 px-8 focus:outline-none item-center justify-center rounded text-lg">
-                      Send
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="lg:w-[50%] w-full h-full flex items-center justify-center ">
+        <div className="lg:w-[50%] w-full h-full flex items-center justify-center mt-24">
           <div className="flex flex-col  gap-10">
             <div className="flex  flex-col items-start justify-center gap-2">
               <div className="flex  flex-col items-start justify-center gap-2">
@@ -142,25 +35,42 @@ const Contact = () => {
                   Call
                 </h1>
                 <p className="text-sm text-[#937767]">
-                  Call our team Mon-Fri from 8am to 5pm
+                  Call our team Mon-Fri from 9:30 am to 6:30 pm
                 </p>
               </div>
               <h1 className="font-semibold underline text-primary">
-                +91 6942069420
+                <a href='tel:+91 1141082575'
+                >+91 11-4108-2575</a>
+              </h1>
+              <h1 className="font-semibold underline text-primary">
+                <a href='tel:+91 8750446500'
+                >+91 87504-46500</a>
               </h1>
             </div>
 
             <div className="flex  flex-col items-start justify-center gap-2">
               <div>
                 <h1 className="text-xl font-semibold font-canelaThin text-primary">
-                  Visit
+                  Visit<span className="text-sm">(by Appointment Only)</span>
                 </h1>
-                <p className="text-sm text-[#937767]">
-                  Come visit us or react us in person in Delhi
-                </p>
               </div>
+              <p className="text-sm text-[#937767]">Registered office + 20,000 sq. ft. Showroom</p>
               <h1 className="font-semibold text-primary">
-                327 Main Road Burari, Delhi-110084, India.
+                327 Main Road Burari, Delhi - 110084
+              </h1>
+              <p className="text-sm text-[#937767] mt-4">
+              2,000 sq. ft. Showrooms Expo Mart, Greater Noida Showroom
+              </p>
+              <h1 className="font-semibold text-primary">
+                Aisle C-05 - Mart 05-07 (2nd Floor)
+                <br />
+                Aisle C-08 - Mart 07-09 (2nd Floor)
+                <br />
+                Aisle D-07 - Mart 46-48 (3rd Floor)
+              </h1>
+              <p className="text-sm text-[#937767] mt-4">Kundali Factory + 5,000 sq. ft. Showroom</p>
+              <h1 className="font-semibold text-primary">
+                Narela Road, Kundli Distt Sonepat, Haryana
               </h1>
             </div>
           </div>

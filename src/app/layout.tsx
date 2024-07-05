@@ -38,6 +38,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<title>Heritage India Exports</title>
+      </head>
       <body
         className={`overflow-x-hidden ${canelaThin.variable} ${canelaMedium.variable} ${canela.variable} ${vietnam.variable}`}
       >

@@ -2,9 +2,9 @@ import React from 'react'
 import ImgCarousel from './ImgCarousel'
 import { Button } from '..'
 import RelatedProductCard from './RelatedProductCard'
-import NudgeBanner from '../NudgeBanner'
+import NudgeBanner from '../ui/NudgeBanner'
 import fs from 'fs'
-import ProductCard from '../homepage/products/ProductCard'
+import ProductCard from '../../app/(HomePage)/sections/products/ProductCard'
 const ProductDetail = ({ slug }: { slug: string }) => {
   const products = JSON.parse(
     fs.readFileSync('public/content/products.json', 'utf8')
