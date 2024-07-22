@@ -10,7 +10,7 @@ const RoundedCard: FC<RoundedCardProps> = ({ img, title }) => {
   return (
     <div className="flex items-center  justify-center flex-col">
       <div className=" h-80 w-96 relative overflow-hidden flex items-end justify-center">
-        <div className=" h-80 w-80 borderGrd absolute -bottom-12   flex items-center justify-center rounded-t-full border border-b-0 border-primary box-border ">
+        <div className=" h-80 w-80 borderGrd absolute -bottom-12 flex items-center justify-center rounded-t-full border border-b-0 border-primary box-border ">
           <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center rounded-t-full border border-b-0 border-primary box-border ">
             <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center rounded-t-full border border-b-0 border-primary box-border ">
               <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center rounded-t-full border border-b-0 border-primary box-border ">

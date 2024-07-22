@@ -1,5 +1,5 @@
 'use client'
-import React, {  useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 import CarouselCard from './CarouselCard'
@@ -20,7 +20,7 @@ const Carousel = () => {
     }
   }, [])
   return (
-    <div className="w-full mt-20 px-4">
+    <div className="w-full my-16 px-4">
       <div className=" w-full relative overflow-hidden h-full flex justify-center lg:justify-between ">
         <div className="w-full h-36 bg-white md:block lg:block hidden absolute clip z-50 left-0 right-0 -bottom-24"></div>
         <div className="w-full h-36 bg-white md:block absolute lg:block hidden clip z-50 left-0 right-0  -top-24"></div>
@@ -35,7 +35,7 @@ const Carousel = () => {
             pauseOnMouseEnter: true,
           }}
           watchSlidesProgress={true}
-          modules={[Pagination,  Autoplay]}
+          modules={[Pagination, Autoplay]}
           className="cursor-grab"
         >
           <SwiperSlide>

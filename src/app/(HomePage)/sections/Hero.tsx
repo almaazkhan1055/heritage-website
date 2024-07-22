@@ -1,6 +1,7 @@
 'use client'
 import { Button } from '@/components'
 import Image from 'next/image'
+import Star from './Star'
 
 // const heroImages = [
 //   '/../heroImages/hero1.jpeg',
@@ -14,18 +15,25 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col items-center px-4 my-16 lg:my-0 lg:pt-[9rem]">
-      <span className="lg:w-[37.25rem] w-full text-center text-primary lg:text-7xl md:text-5xl text-5xl font-bold font-canelaThin lg:leading-[5.5rem]">
-      Heritage India Exports
-      </span>
-      <span className="lg:w-[22.25rem] w-full mt-5 text-center text-secondary text-base font-light font-vietnam leading-tight">
-        Manufacturing timeless treasures from the heart of India for the global
-        home.
-      </span>
-      <span className="lg:mt-[5.25rem] mt-5 flex flex-wrap items-center justify-center gap-y-3 gap-x-10 font-canela leading-tight ">
-        <Button label="Explore our Collection" color="primary" route='/products' />
-        <Button label="Contact Us" color="white" route='/contact' />
-      </span>
+    <div className="md:flex items-center justify-center lg:pl-28 pl-8 lg:py-20 pt-20 pb-0 ">
+      <div className="w-full lg:w-[60%] flex flex-col items-center ">
+        <em className="w-full text-primary lg:text-5xl md:text-3xl text-2xl font-bold font-canelaThin lg:leading-[5.5rem] text-left">
+          Heritage India Exports
+        </em>
+        <span className="w-full text-secondary text-base font-light font-vietnam leading-tight text-left">
+          Manufacturing timeless treasures from <br /> the heart of India for
+          the global home.
+        </span>
+        <span className="w-full mt-5 flex flex-wrap items-center gap-y-3 gap-x-10 font-canela leading-tight justify-start">
+          <Button
+            label="Explore our Collection"
+            color="primary"
+            route="/products"
+          />
+          <Button label="Contact Us" color="white" route="/contact" />
+        </span>
+      </div>
+      <Star />
     </div>
   )
 }

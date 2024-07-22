@@ -12,9 +12,12 @@ body {
     linear-gradient(white, white) padding-box,
     linear-gradient(to bottom, #f5efcf, #5d4b41) border-box;
   border: 2px solid transparent;
-  border-bottom: none;
-
   transition: border 1s;
+}
+.borderGrd-r {
+  border-right: none;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
 }
 
 .clip {
@@ -28,7 +31,5 @@ body {
 
 .swiper-button-next,
 .swiper-button-prev {
-    display: none !important;
+  display: none !important;
 }
-
-
