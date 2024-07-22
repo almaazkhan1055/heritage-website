@@ -67,7 +67,7 @@ const Navbar = () => {
           <div
             className={`${
               show ? 'flex' : 'hidden'
-            }  flex-col  w-full  bg-white z-50 top-16   h-64 absolute justify-center gap-6 items-center border-t border-b border-[#B39E92]`}
+            }  flex-col  w-full  bg-white z-50 top-20   h-64 absolute justify-center gap-6 items-center border-t border-b border-[#B39E92]`}
           >
             <Link href={'/about'}>
               <p className="hover:text-[#937767] ">About Us</p>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <div
             className={`${
               show ? 'flex' : 'hidden'
-            }  flex-col  w-full  bg-white z-50 top-16 left-0 right-0 h-64 absolute justify-center gap-6 items-center border-b border-[#B39E92]`}
+            }  flex-col  w-full  bg-white z-50 top-20 left-0 right-0 h-64 absolute justify-center gap-6 items-center border-b border-[#B39E92]`}
           >
             <Link href={'/about'}>
               <p className="hover:text-[#937767] ">About Us</p>

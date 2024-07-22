@@ -15,8 +15,8 @@ import Star from './Star'
 
 const Hero = () => {
   return (
-    <div className="md:flex items-center justify-center lg:pl-28 pl-8 lg:py-20 pt-20 pb-0 ">
-      <div className="w-full lg:w-[60%] flex flex-col items-center ">
+    <div className="md:flex items-center justify-center lg:pl-28  lg:py-20 pt-20 pb-0">
+      <div className="w-full lg:w-[60%] flex flex-col items-center pl-8">
         <em className="w-full text-primary lg:text-5xl md:text-3xl text-2xl font-bold font-canelaThin lg:leading-[5.5rem] text-left">
           Heritage India Exports
         </em>

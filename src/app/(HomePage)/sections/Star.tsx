@@ -22,15 +22,15 @@ const Star = () => {
     //   </p>
     // </div>
     // </div>
-    <div className="w-full flex flex-col items-center justify-center gap-8 mt-20 lg:mt-0">
-      <div className="lg:h-[550px] h-[350px] w-full relative overflow-hidden flex items-end justify-center">
+    <div className="w-full flex flex-col items-center justify-center gap-8 mt-20 lg:mt-0 ">
+      <div className="lg:h-[400px] h-[350px] w-full relative overflow-hidden flex items-end justify-center">
         <div className=" h-full w-full borderGrd absolute -right-24 flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-          <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-            <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-              <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-                <div className=" w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-                  <div className=" w-[95%] h-[95%] absolute  borderGrd flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
-                    <div className="w-[95%] h-[95%] absolute overflow-hidden border-gray-400 borderGrd-r flex items-center justify-center flex-col gap-5 bg-[#93776713]">
+          <div className=" md:w-[97%] w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
+            <div className=" md:w-[97%] w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
+              <div className=" md:w-[97%] w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
+                <div className=" md:w-[97%] w-[95%] h-[95%] absolute  borderGrd   flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r">
+                  <div className=" md:w-[97%] w-[95%] h-[95%] absolute  borderGrd flex items-center justify-center border border-b-0 border-primary box-border borderGrd-r overflow-hidden">
+                    <div className="md:w-[97%] w-[95%] h-[95%] absolute overflow-hidden border-gray-400 borderGrd-r flex items-center justify-center flex-col gap-5 bg-[#93776713] hover:scale-110 transition-all duration-200 object-cover">
                       <Image
                         alt="img"
                         src="/assets/stars/stars.png"
@@ -38,7 +38,7 @@ const Star = () => {
                         height={200}
                         className="hover:scale-110 transition-all duration-200 object-cover"
                       />
-                      <div className="flex flex-col items-center justify-center gap-1">
+                      <div className="flex flex-col items-center justify-center gap-1 hover:scale-110 transition-all duration-200 object-cover">
                         <p className="text-primary lg:text-2xl text-xl font-light font-canelaThin text-center">
                           3 Star Export House
                         </p>
